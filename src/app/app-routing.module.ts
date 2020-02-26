@@ -1,13 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { ObervabledemoComponent } from './obervabledemo/obervabledemo.component';
-import {PagenotfoundComponent} from './pagenotfound/pagenotfound.component';
-const routes :Routes =[
-  {path:"",component:DashboardComponent},
-  {path :"pdm",component:ObervabledemoComponent},
-  {path :"**",component:PagenotfoundComponent}
-];
+
+
+const routes: Routes = [];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
